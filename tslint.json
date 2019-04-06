@@ -1,0 +1,19 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-floating-promises": true
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "node_modules",
+            "src/frontend/external_modules/**/*.ts",
+            "src/backend/database/migrations/*-*.ts",
+            "src/backend/tests/**/*.tests.ts"
+        ]
+    }
+}

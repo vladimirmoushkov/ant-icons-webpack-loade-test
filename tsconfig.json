@@ -1,0 +1,32 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "esnext",
+         "dom"
+      ],
+      "target": "esnext",
+      "jsx": "react",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strictBindCallApply": true,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": false,
+      "noImplicitAny": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": true
+   },
+
+   "exclude": [
+      "node_modules/**/*",
+      "dist/**/*",
+      "assets/**/*"
+   ],
+   "include": [
+        "./src/**/*"
+    ]
+}
